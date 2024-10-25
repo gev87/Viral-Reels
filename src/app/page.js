@@ -17,11 +17,12 @@ export default function Home() {
 			<section className={classes.section}>
 				<Image
 					priority
-					src="/images/influ-ai.png"
+					src="/images/logo.png"
 					alt="logo"
 					width={225}
 					height={45}
 					className={classes.logo}
+					unoptimized
 				/>
 				<StackedImages />
 			</section>

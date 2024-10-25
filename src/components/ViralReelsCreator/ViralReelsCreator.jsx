@@ -18,7 +18,7 @@ function ViralReelsCreator() {
 				<h1>
 					{CREATE} <br />
 					{VIRAL} <span>{REELS}</span>
-					<Image src="/icons/createReelIcon.png" alt="custom icon" width={52} height={49} />
+					<Image src="/icons/createReel.png" alt="custom icon" width={52} height={49} unoptimized/>
 				</h1>
 			</div>
 			<div>
