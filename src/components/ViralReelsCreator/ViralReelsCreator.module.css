@@ -1,0 +1,42 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	max-width: 736px;
+	height: 288px;
+	text-align: center;
+	gap: 16px;
+	align-items: center;
+}
+
+.main > div:first-child > * {
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 64px;
+	letter-spacing: -0.02em;
+	text-align: center;
+}
+
+.main > div:nth-child(2) {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 28px;
+	letter-spacing: -0.02em;
+	text-align: center;
+}
+
+.main > div span {
+	color: var(--Brand-A);
+	padding-right: 8px;
+	padding-left: 8px;
+	font-weight: 700;
+}
+
+.main > div > h1 > img {
+	position: relative;
+	bottom: 10px;
+	right: 8px;
+}
+
+.main button {
+	margin-top: 16px;
+}

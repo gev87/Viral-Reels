@@ -1,0 +1,36 @@
+.main {
+	height: 116px;
+	gap: 48px;
+	border-top: 1px solid #1111111F;
+	display: flex;
+	align-items: flex-end;
+    width:100%;
+    justify-content: space-between;
+    margin-top:50px
+}
+
+.main > div {
+	max-width: 317px;
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: -0.02em;
+	text-align: left;
+}
+
+@media (max-width:1156px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+        align-content:center;
+        justify-content:center;
+        height:auto;
+        padding:10px;
+        gap:0;
+    }
+    .main > div {
+        text-align: center;
+        max-width: 100%
+    }
+}

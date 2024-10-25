@@ -1,0 +1,37 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 352px;
+	height: 540px;
+	gap: 12px;
+	border-radius: 16px !important;
+	border: 1px solid #1111110a;
+	box-shadow: 0px 51px 48px 0px rgba(17, 17, 17, 0.12);
+	align-items: center;
+}
+
+.cardContent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	height: 168px;
+	width: 312px;
+	position: relative;
+	bottom: 24px;
+}
+
+.cardContent h4 {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px;
+	text-align: center;
+}
+
+.cardContent p {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: -0.02em;
+	text-align: center;
+}

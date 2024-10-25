@@ -1,0 +1,29 @@
+.main {
+	margin-top: 50px;
+    width:calc(100% + 48px)
+}
+
+.main h2 {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 48px;
+	letter-spacing: -0.02em;
+	text-align: center;
+    padding:32px
+}
+
+.main .column {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.column:nth-child(odd) {
+		justify-content: flex-end; 
+	}
+
+	.column:nth-child(even) {
+		justify-content: flex-start;
+	}
+}
+

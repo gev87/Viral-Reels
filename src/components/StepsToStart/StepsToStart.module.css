@@ -1,0 +1,72 @@
+.main {
+	background: var(--Brand-A);
+	width: 100%;
+	position: relative;
+	min-height: 520px;
+	border-radius: 16px;
+	background: linear-gradient(135deg, rgba(172, 36, 255, 50) 0%, var(--Brand-A) 100%),
+		linear-gradient(135deg, rgba(92, 36, 255, 0) 26.81%, var(--Brand-B) 92.19%),
+		linear-gradient(135deg, rgba(141, 94, 212, 0) 83.07%, var(--Brand-B) 100%);
+	background-size: cover;
+	background-position: center;
+}
+
+.main .logo {
+	position: absolute;
+	left: 5%;
+	bottom: 10%;
+	color: var(--white);
+}
+
+main .leftSide {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	letter-spacing: -0.02em;
+	text-align: left;
+}
+
+.main .leftSide p {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.main .leftSide h2 {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 48px;
+}
+
+.main .img {
+	position: absolute;
+	left: 52.5%;
+	top: 9.2%;
+	right: 5%;
+}
+
+@media (max-width: 1120px) {
+	.main {
+		width: 80%;
+		height: 700px;
+	}
+	.main .img {
+		top: 20%;
+		left: auto;
+	}
+
+	.main .leftSide {
+		text-align: center;
+		position: relative;
+		left: 0;
+	}
+
+	.leftSide h2 {
+		font-size: 28px;
+	}
+	.main .logo {
+		bottom: 5%;
+		right: 40%;
+		left: auto;
+	}
+}

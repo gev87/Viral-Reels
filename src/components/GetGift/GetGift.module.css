@@ -1,0 +1,46 @@
+.main {
+	max-width: 542px;
+	margin-top: 250px;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	letter-spacing: -0.02em;
+	text-align: center;
+	position: relative;
+	padding-bottom: 270px;
+	gap: 32px;
+}
+
+.main h2 {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 48px;
+}
+.main p {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 28px;
+}
+.main img {
+	position: absolute;
+}
+
+.main .imgLeft {
+	left: -330px;
+}
+
+.main .imgRight {
+	top: 256px;
+	right: -330px;
+}
+
+.main .starLeft {
+	left: -60px;
+	top: -30px;
+}
+
+.main .starRight {
+	left: 550px;
+	top: 140px;
+}
